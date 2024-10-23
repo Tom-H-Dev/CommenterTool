@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|c:\\users\\admin\\documents\\codecommenter\\commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\commands\\toolwindows\\toolwindow1control.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\toolwindows\\toolwindow1control.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\vscommandtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:vscommandtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\commands\\toolwindows\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\toolwindows\\toolwindow1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|c:\\users\\admin\\documents\\codecommenter\\commands\\toolwindows\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\toolwindows\\toolwindow1control.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\codecommenterpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:codecommenterpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\commands\\codecommentersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\codecommentersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\codecommentersettingswindowpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:codecommentersettingswindowpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|C:\\Users\\Admin\\Documents\\CodeCommenter\\vscommandtable.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:vscommandtable.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +46,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CodeCommenterPackage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenterPackage.cs",
+              "RelativeDocumentMoniker": "CodeCommenterPackage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenterPackage.cs",
+              "RelativeToolTip": "CodeCommenterPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:18:10.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ToolWindow1Control.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1Control.xaml",
+              "RelativeDocumentMoniker": "Commands\\ToolWindows\\ToolWindow1Control.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1Control.xaml",
+              "RelativeToolTip": "Commands\\ToolWindows\\ToolWindow1Control.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T06:47:22.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VSCommandTable.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\VSCommandTable.cs",
+              "RelativeDocumentMoniker": "VSCommandTable.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\VSCommandTable.cs",
+              "RelativeToolTip": "VSCommandTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T07:47:58.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ToolWindow1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1.cs",
+              "RelativeDocumentMoniker": "Commands\\ToolWindows\\ToolWindow1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1.cs",
+              "RelativeToolTip": "Commands\\ToolWindows\\ToolWindow1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T06:47:13.32Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,10 +107,59 @@
               "RelativeDocumentMoniker": "Commands\\MyCommand.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\MyCommand.cs",
               "RelativeToolTip": "Commands\\MyCommand.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T13:33:54.106Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToolWindow1Control.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1Control.xaml.cs",
+              "RelativeDocumentMoniker": "Commands\\ToolWindows\\ToolWindow1Control.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\ToolWindows\\ToolWindow1Control.xaml.cs",
+              "RelativeToolTip": "Commands\\ToolWindows\\ToolWindow1Control.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:33:45.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CodeCommenterSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\CodeCommenterSettings.cs",
+              "RelativeDocumentMoniker": "Commands\\CodeCommenterSettings.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\CodeCommenterSettings.cs",
+              "RelativeToolTip": "Commands\\CodeCommenterSettings.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T06:31:17.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CodeCommenterSettingsWindowPackage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenterSettingsWindowPackage.cs",
+              "RelativeDocumentMoniker": "CodeCommenterSettingsWindowPackage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenterSettingsWindowPackage.cs",
+              "RelativeToolTip": "CodeCommenterSettingsWindowPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:21:02.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VSCommandTable.vsct",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\VSCommandTable.vsct",
+              "RelativeDocumentMoniker": "VSCommandTable.vsct",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\VSCommandTable.vsct",
+              "RelativeToolTip": "VSCommandTable.vsct",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-23T06:30:39.696Z"
             }
           ]
         }

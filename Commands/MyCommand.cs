@@ -1,33 +1,8 @@
-﻿//using System.Linq;
-
-//namespace CodeCommenter
-//{
-//    [Command(PackageIds.MyCommand)]
-//    internal sealed class MyCommand : BaseCommand<MyCommand>
-//    {
-//        string AIPrompt = "Can you comment all the code listed below, comment the fucntions and " +
-//        "variables with summaries and write some normal comments in functions where the code is a bit more difficult to understand.";
-
-//        string ownApiKey = "AIzaSyAnG15-I6130dQ3Xzxz5bENyKMfCKbMccg";
-//        protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
-//        {
-
-//            //When the event is called
-//            var docView = await VS.Documents.GetActiveDocumentViewAsync();
-//            var selection = docView?.TextBuffer.CurrentSnapshot.GetText();
-
-//            var guid = Guid.NewGuid().ToString();
-
-//            var fullspan = new Microsoft.VisualStudio.Text.Span(0, selection.Length);
-//            docView.TextBuffer.Replace(fullspan, guid + "\n" + selection);
-//        }
-//    }
-//}
-
-using System;
+﻿using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using CodeCommenter;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -35,12 +10,41 @@ using Newtonsoft.Json.Linq;
 [Command(PackageIds.MyCommand)]
 internal sealed class MyCommand : BaseCommand<MyCommand>
 {
-    string AIPrompt = "Can you write comments (///) above functions, variables and classes";
-
+    static string summaryPrompt = "Can you write summaries (/// in c#) above functions and variables and classes and dont change the code, keep it the same";
+    static string regularPrompt = "Can you write comments for my code and dont change the code, keep it the same";
+    
+    static string basicPrompt;
     string ownApiKey = "AIzaSyAnG15-I6130dQ3Xzxz5bENyKMfCKbMccg";
+
+    static string ComboBoxValue;
+    static string APIKeyValue;
+
+    public static void ExecuteCommand(string comboBoxValue, string textBoxValue)
+    {
+        // Process the ComboBox and TextBox values
+        // Example:
+        //System.Diagnostics.Debug.WriteLine($"ComboBox Value: {comboBoxValue}, TextBox Value: {textBoxValue}");
+
+        APIKeyValue = textBoxValue;
+
+        switch (comboBoxValue)
+        {
+            case "":
+                basicPrompt = summaryPrompt;
+                break;
+            case "2":
+                basicPrompt = regularPrompt;
+                break;
+        }
+        ComboBoxValue = comboBoxValue;
+
+        // Add your logic to handle the data here
+    }
 
     protected override async Task ExecuteAsync(OleMenuCmdEventArgs e)
     {
+        VS.MessageBox.Show("Debug controll input value screen", $"ComboBox Value: {ComboBoxValue}, TextBox Value: {APIKeyValue}");
+
         // When the event is called
         var docView = await VS.Documents.GetActiveDocumentViewAsync();
         var selection = docView?.TextBuffer.CurrentSnapshot.GetText();
@@ -62,7 +66,7 @@ internal sealed class MyCommand : BaseCommand<MyCommand>
                         {
                             new
                             {
-                                text = AIPrompt + "\n" + selection
+                                text = summaryPrompt + "\n" + selection
                             }
                         }
                     }

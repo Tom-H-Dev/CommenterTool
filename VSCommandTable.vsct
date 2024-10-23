@@ -25,13 +25,25 @@
           <LocCanonicalName>.Edit.CommentCode </LocCanonicalName>
         </Strings>
       </Button>
+
+		<Button guid="CodeCommenter" id="CodeCommenterSettings" priority="0x0100" type="Button">
+			<Parent guid="CodeCommenter" id="MyMenuGroup"/>
+			<Icon guid="ImageCatalogGuid" id="CommentCode" />
+			<CommandFlag>IconIsMoniker</CommandFlag>
+			<Strings>
+				<ButtonText>Comment Code Settings</ButtonText>
+				<LocCanonicalName>.Edit.CommentCode Settings </LocCanonicalName>
+			</Strings>
+		</Button>
     </Buttons>
   </Commands>
 
   <Symbols>
     <GuidSymbol name="CodeCommenter" value="{58a428e5-968a-461e-ad65-2e3cfcdc9353}">
       <IDSymbol name="MyMenuGroup" value="0x0001" />
-      <IDSymbol name="MyCommand" value="0x0100" />
+		<IDSymbol name="MyCommand" value="0x0100" />
+	  <IDSymbol name="MyWindowGroup" value="0x002"/>
+		<IDSymbol name="CodeCommenterSettings" value="0x0200" />
     </GuidSymbol>
   </Symbols>
 </CommandTable>

@@ -22,5 +22,7 @@ namespace CodeCommenter
     {
         public const int MyMenuGroup = 0x0001;
         public const int MyCommand = 0x0100;
+        public const int MyWindowGroup = 0x0002;
+        public const int CodeCommenterSettings = 0x0200;
     }
 }

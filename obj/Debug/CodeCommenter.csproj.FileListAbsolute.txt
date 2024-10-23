@@ -38,7 +38,6 @@ C:\Users\Admin\Documents\CodeCommenter\obj\Debug\VSCT.read.1.tlog
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\VSCT.write.1.tlog
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\resources.json
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\ctoFiles.json
-C:\Users\Admin\Documents\CodeCommenter\obj\Debug\_EmptyResource.resources.original
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\mergeCto.cache
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\CodeCommenter.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\CodeCommenter.dll
@@ -48,3 +47,7 @@ C:\Users\Admin\Documents\CodeCommenter\obj\Debug\CodeCommenter.latest.pkgdef
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\extension.vsixmanifest
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\files.json
 C:\Users\Admin\Documents\CodeCommenter\obj\Debug\createTemplateManifests.cache
+C:\Users\Admin\Documents\CodeCommenter\obj\Debug\Commands\ToolWindows\ToolWindow1Control.baml
+C:\Users\Admin\Documents\CodeCommenter\obj\Debug\Commands\ToolWindows\ToolWindow1Control.g.cs
+C:\Users\Admin\Documents\CodeCommenter\obj\Debug\CodeCommenter_MarkupCompile.cache
+C:\Users\Admin\Documents\CodeCommenter\obj\Debug\CodeCommenter.g.resources
