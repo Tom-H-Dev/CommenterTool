@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|c:\\users\\admin\\documents\\codecommenter\\commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2280FEED-0AD6-41D1-B7A7-1708406AFDC0}|CodeCommenter.csproj|solutionrelative:commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\MyCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\MyCommand.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Commands\\MyCommand.cs",
+              "RelativeToolTip": "Commands\\MyCommand.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:33:54.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

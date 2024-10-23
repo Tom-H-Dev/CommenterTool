@@ -13539,11 +13539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Csharp\\CodeCommenter\\CodeCommenter.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenter.csproj",
       "projectName": "CodeCommenter",
-      "projectPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Csharp\\CodeCommenter\\CodeCommenter.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\CodeCommenter.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\Csharp\\CodeCommenter\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\CodeCommenter\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
