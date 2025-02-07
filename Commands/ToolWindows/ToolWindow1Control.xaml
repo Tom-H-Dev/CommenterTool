@@ -15,30 +15,61 @@
              Name="MyToolWindow">
     <Grid>
         <StackPanel Orientation="Vertical">
-            <Label x:Name="lblHeadline"
-                   Margin="10"
-                   HorizontalAlignment="Center">Code Commenter Settigns</Label>
-            <ComboBox Name="CommentStyle" 
+
+            <Label x:Name="lblHeadline" Margin="10" HorizontalAlignment="Center" Foreground="White">Code Commenter Settings</Label>
+
+                <ComboBox Name="CommentStyle" 
                       Text="Chose Comment Style"
                       IsEditable="True"
                       IsReadOnly="True"
                       Width="240"
                       SelectedIndex="0">
-                <ComboBoxItem>Function Summaries</ComboBoxItem>
-                <ComboBoxItem>Regular Comments</ComboBoxItem>
-            </ComboBox>
+                    <ComboBoxItem>Function Summaries</ComboBoxItem>
+                    <ComboBoxItem>Regular Comments</ComboBoxItem>
+                </ComboBox>
 
-            <TextBlock Text=""/>
-            <StackPanel Orientation="Vertical" Margin="0,20,0,20" Width="240">
+                <TextBlock Text=""/>
+                <StackPanel Orientation="Vertical" Margin="0,20,0,20" Width="240">
 
-                <TextBox Name="APITextInput"
-                     Width="240" HorizontalAlignment="Left" TextAlignment="Center" Height="20" Text="Enter your Gemini API key:">
-                </TextBox>
-                
+                    <Grid>
+                        <!-- The actual input field -->
+                        <TextBox Name="ApiKeyTextBox"
+                 Width="300"
+                 VerticalAlignment="Center"
+                 TextChanged="ApiKeyTextBox_TextChanged"/>
 
-                <Button Content="Check API Key" Click="button1_Click"/>
-            </StackPanel>
-            <TextBlock x:Name="APICheckOutput"/>
+                        <!-- Placeholder Text (Initially visible, disappears when typing) -->
+                        <TextBlock Name="PlaceholderText"
+                   Text="Enter your Gemini API key:"
+                   Foreground="Gray"
+                   IsHitTestVisible="False"
+                   VerticalAlignment="Center"
+                   Margin="5,0,0,0">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Visibility" Value="Visible"/>
+                                        <Style.Triggers>
+                                            <!-- Hide when the TextBox contains text -->
+                                            <DataTrigger Binding="{Binding Text, ElementName=ApiKeyTextBox}" Value="">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Text, ElementName=ApiKeyTextBox}">
+                                                <Setter Property="Visibility" Value="Collapsed"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+
+                    <Button Content="Check API Key" Click="button1_Click"/>
+                    <TextBlock Text=""/>
+
+
+                    <Button Content="Delete api-key" Click="ClearApiData"/>
+                </StackPanel>
+                <TextBlock x:Name="APICheckOutput"/>
+        
 
 
         </StackPanel>
