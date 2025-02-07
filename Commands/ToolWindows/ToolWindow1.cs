@@ -9,7 +9,7 @@ namespace CodeCommenter.Commands
     [Command(PackageIds.CodeCommenterSettings)]
     public class ToolWindow1 : BaseToolWindow<ToolWindow1>
     {
-        public override string GetTitle(int toolWindowId) => "ToolWindow1";
+        public override string GetTitle(int toolWindowId) => "Code Commenter Settings";
 
         public override Type PaneType => typeof(Pane);
 

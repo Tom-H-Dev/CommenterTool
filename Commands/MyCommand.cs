@@ -1,5 +1,6 @@
 ﻿using System.Net.Http;
 using System.Text;
+using System.Windows.Controls;
 using System.Windows.Input;
 using CodeCommenter;
 using Newtonsoft.Json;
@@ -8,24 +9,33 @@ using Newtonsoft.Json.Linq;
 [Command(PackageIds.MyCommand)]
 internal sealed class MyCommand : BaseCommand<MyCommand>
 {
-    static string summaryPrompt = "Can you write summaries (/// in c#) above functions and variables and classes and dont change the code, keep it the same";
-    static string regularPrompt = "Can you write comments for my code and dont change the code, keep it the same";
+    static string summaryPrompt = "Add documentation comments to all classes, methods, properties, and variables in the following code. Use the appropriate syntax for the given programming language (e.g., /// for C#). Keep all existing code untouched, and do not add any additional text outside of the original code and documentation.";
+    static string regularPrompt = "Add inline comments to explain the functionality of all classes, methods, properties, and variables in the following code. Use the appropriate comment syntax for the given programming language (e.g., // for C#). Keep all existing code untouched, and do not add any additional text outside of the original code and comments.";
+    static string combinedPrompt = "Add documentation comments to all classes, methods, properties, and variables using the appropriate syntax for the given programming language (e.g., /// for C#). Additionally, add inline comments within method bodies to explain the code logic using the correct syntax (e.g., // for C#). Keep all existing code untouched, and do not add any additional text outside of the original code and comments.";
 
     static string basicPrompt;
 
     static string ComboBoxValue;
     static string APIKeyValue;
 
-    public static void ExecuteCommand(string comboBoxValue, string textBoxValue)
+    public static void ExecuteCommand(string textBoxValue)
     {
         APIKeyValue = textBoxValue;
+        
+    }
+
+    public static void ChangeCommentStyle(string comboBoxValue)
+    {
         switch (comboBoxValue)
         {
-            case "":
+            case "Function Summaries":
                 basicPrompt = summaryPrompt;
                 break;
-            case "2":
+            case "Regular Comments":
                 basicPrompt = regularPrompt;
+                break;
+            case "Comments and Summaries":
+                basicPrompt = combinedPrompt;
                 break;
         }
         ComboBoxValue = comboBoxValue;
@@ -64,7 +74,7 @@ internal sealed class MyCommand : BaseCommand<MyCommand>
                             {
                                 new
                                 {
-                                    text = summaryPrompt + "\n" + selection
+                                    text = basicPrompt + "\n" + selection
                                 }
                             }
                         }

@@ -18,14 +18,20 @@ namespace CodeCommenter.Commands
             {
                 // Read the content from the file and set it to the TextBox
                 string fileContent = File.ReadAllText(filePath);
-                MyCommand.ExecuteCommand("", fileContent);
+                MyCommand.ExecuteCommand(fileContent);
                 ApiKeyTextBox.Text = fileContent;
+                MyCommand.ChangeCommentStyle(CommentStyle.Text);
             }
             else
             {
                 // Optionally, you can leave it empty or set a placeholder
                 ApiKeyTextBox.Clear();
             }
+        }
+
+        private void ComboBox_SelectionChanged(object sender, EventArgs e)
+        {
+            MyCommand.ChangeCommentStyle(CommentStyle.Text);
         }
 
         private async void button1_Click(object sender, RoutedEventArgs e)
@@ -77,7 +83,7 @@ namespace CodeCommenter.Commands
                     {
                         VS.MessageBox.Show("API key is correct and set!");
                         File.WriteAllText(filePath, textBoxValue);
-                        MyCommand.ExecuteCommand(comboBoxValue, textBoxValue);
+                        MyCommand.ExecuteCommand(textBoxValue);
                     }
                     else
                     {
@@ -129,5 +135,9 @@ namespace CodeCommenter.Commands
             }
         }
 
+        private void CommentStyle_SelectionChanged_1(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

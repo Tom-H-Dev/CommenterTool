@@ -79,3 +79,4 @@ C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\CodeCommenter.latest.pkgde
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\extension.vsixmanifest
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\files.json
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\createTemplateManifests.cache
+C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\_EmptyResource.resources.original

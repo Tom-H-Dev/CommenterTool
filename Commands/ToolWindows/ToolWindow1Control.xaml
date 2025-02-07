@@ -23,10 +23,12 @@
                       IsEditable="True"
                       IsReadOnly="True"
                       Width="240"
-                      SelectedIndex="0">
+                      SelectedIndex="0"
+                      DropDownClosed="ComboBox_SelectionChanged" SelectionChanged="CommentStyle_SelectionChanged_1">
                     <ComboBoxItem>Function Summaries</ComboBoxItem>
                     <ComboBoxItem>Regular Comments</ComboBoxItem>
-                </ComboBox>
+                    <ComboBoxItem>Comments and Summaries</ComboBoxItem>
+            </ComboBox>
 
                 <TextBlock Text=""/>
                 <StackPanel Orientation="Vertical" Margin="0,20,0,20" Width="240">
