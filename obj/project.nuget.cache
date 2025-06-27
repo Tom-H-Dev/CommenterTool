@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GWILrvzbqLc=",
+  "dgSpecHash": "T4iF8AqcYyM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\CodeCommenter.csproj",
+  "projectFilePath": "D:\\Github\\CodeCommenter\\CodeCommenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tom\\.nuget\\packages\\community.visualstudio.toolkit.17\\17.0.451\\community.visualstudio.toolkit.17.17.0.451.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\community.visualstudio.toolkit.analyzers\\1.0.451\\community.visualstudio.toolkit.analyzers.1.0.451.nupkg.sha512",

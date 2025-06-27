@@ -84,7 +84,7 @@ internal sealed class MyCommand : BaseCommand<MyCommand>
                 var jsonContent = JsonConvert.SerializeObject(jsonData);
                 var httpContent = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-                var response = await httpClient.PostAsync($"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={APIKeyValue}", httpContent);
+                var response = await httpClient.PostAsync($"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={APIKeyValue}", httpContent);
 
                 if (response.IsSuccessStatusCode)
                 {

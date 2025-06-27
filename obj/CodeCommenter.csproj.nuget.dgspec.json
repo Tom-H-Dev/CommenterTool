@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\CodeCommenter.csproj": {}
+    "D:\\Github\\CodeCommenter\\CodeCommenter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\CodeCommenter.csproj": {
+    "D:\\Github\\CodeCommenter\\CodeCommenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\CodeCommenter.csproj",
+        "projectUniqueName": "D:\\Github\\CodeCommenter\\CodeCommenter.csproj",
         "projectName": "CodeCommenter",
-        "projectPath": "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\CodeCommenter.csproj",
+        "projectPath": "D:\\Github\\CodeCommenter\\CodeCommenter.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tom\\Documents\\GitHub\\CommenterTool\\obj\\",
+        "outputPath": "D:\\Github\\CodeCommenter\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],

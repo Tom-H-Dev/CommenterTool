@@ -80,3 +80,5 @@ C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\extension.vsixmanifest
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\files.json
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\createTemplateManifests.cache
 C:\Users\Tom\Documents\GitHub\CommenterTool\obj\Debug\_EmptyResource.resources.original
+D:\Github\CodeCommenter\obj\Debug\CodeCommenter.dll
+D:\Github\CodeCommenter\obj\Debug\CodeCommenter.pdb
